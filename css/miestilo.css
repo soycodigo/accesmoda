@@ -1,0 +1,47 @@
+#fondito{
+	background-color: white;
+}
+nav{
+	box-shadow: none;
+  	width: 100%;
+  
+}
+
+.container{
+	/*width: 877px;
+	height: 414px;
+	margin: 0 auto;*/
+	width: 80%;
+}
+/*estilo imagen principal*/
+#bordes_imgprincipal{
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+ #centrar img{
+ 	display:block;
+    margin:auto;
+ }
+ /*estilo imagenes menu*/
+ /*.section{
+ 	padding-top: 1rem;
+ 	padding-bottom: 1rem;
+ }*/
+ #centrar_novia img{
+ 	display:block;
+    margin:auto;
+ }
+ #centrar_baby img{
+ 	display:block;
+    margin:auto;
+ }
+ #centrar_pija img{
+ 	display:block;
+    margin:auto;
+ }
+
+.colorform{
+	color: #d81b60;
+}
+
