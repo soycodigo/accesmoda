@@ -1,4 +1,4 @@
-![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
+(https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
 ![alt tag](acces/img/logo.jpg)
 ===========
 
