@@ -6,12 +6,14 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
     	 <meta name=viewport content="width=device-width, initial-scale=1">
     	 <meta charset="utf-8">
-    	 <script src="js/jquery-2.1.4.js"></script>
-    	 <script src="js/materialize.js"></script>
-    	 <script src="js/mijs.js"></script>
+    	 
        <link rel="icon" type="image/png" href="img/favicon.png">
     	 <link rel="stylesheet" type="text/css" href="css/materialize.css">
     	 <link rel="stylesheet" type="text/css" href="css/miestilo.css">
+       <link rel="stylesheet" href="owl.carousel/owl-carousel/owl.carousel.css">
+   
+        <!-- Default Theme -->
+        <link rel="stylesheet" href="owl.carousel/owl-carousel/owl.theme.css">
    </head>
 
    <body class="pink lighten-4">
@@ -33,17 +35,15 @@
               </div>
           </nav>
       </div>
-      <br>
-      <br>
-
       <!--Fotos de principal-->
-      <div class="container">
-        <br>
-        <br>
-        <div id="centrar">
-        <img src="img/logo.jpg" class="responsive-img" id="bordes_imgprincipal">
+      <div id="centrar">
+        <div id="owl-demo" class="owl-carousel owl-theme">
+          <img src="img/logo.jpg" class="responsive-img" id="bordes_imgprincipal">
         </div>
-        <!--Fotos de principal-->
+      </div>
+       <!--Fotos de principal-->
+
+      <div class="container">
         <br><br><br>
         <!--Fotos de contenido menu-->
       <div class="section">
@@ -77,15 +77,14 @@
 
     <!--Boton flotante-->
     <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-        <a class="btn-floating btn-large red">
-          <i class="large mdi-editor-mode-edit"></i>
+        <a class="btn-floating btn-large red" href="contacto.html">
+          <i class="large mdi-social-pages"></i>
         </a>
-        <ul>
-          <li><a class="btn-floating green" href="registro.php"><i class="large mdi-social-person-add"></i></a></li>
-          <li><a class="btn-floating blue" href="login.php"><i class="large mdi-action-perm-identity"></i></a></li>
-        </ul>
     </div>
       <!--Boton flotante-->
-
+       <script src="js/jquery-2.1.4.js"></script>
+       <script src="js/materialize.js"></script>
+       <script src="js/mijs.js"></script>
+       <script src="owl.carousel/owl-carousel/owl.carousel.js"></script>
    </body>
  </html>

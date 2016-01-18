@@ -22,6 +22,7 @@ nav{
  #centrar img{
  	display:block;
     margin:auto;
+    width: 100%;
  }
  /*estilo imagenes menu*/
  /*.section{
@@ -43,5 +44,10 @@ nav{
 
 .colorform{
 	color: #d81b60;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
